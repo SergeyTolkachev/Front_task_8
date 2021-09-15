@@ -16,8 +16,8 @@ img {
     float: left;
 }
 
-.clearfix {
-    content: '';
+.clearfix::after {
+    content: "";
     display: block;
     clear: both;
 }
