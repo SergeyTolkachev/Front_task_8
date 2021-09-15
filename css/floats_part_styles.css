@@ -9,8 +9,8 @@ body {
     overflow-x: hidden;
 }
 
-.clearfix {
-    content: '';
+.clearfix::after {
+    content: "";
     display: block;
     clear: both;
 }
