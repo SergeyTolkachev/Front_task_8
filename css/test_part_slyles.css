@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+div {
+    border: 1px solid red;
+}
+img {
+    float: left;
+}
+
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}

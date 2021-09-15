@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header__col, .footer__col {
+    width: calc(100% - 10px);
+    height: 100px;
+    float: left;
+    margin: 5px;
+}
+
+.header__col {
+    background-color: blue;
+}
+
+.footer__col {
+    background-color: rgb(61, 165, 235);
+}
+
+.sidenav, aside{
+    background-color: pink;
+    min-height: calc(100vh - 220px);
+    float: left;
+    
+}
+
+.sidenav {
+    width: calc(20% - 5px);
+    margin-left: 5px;
+}
+
+aside {
+    width: calc(20% - 5px);
+    margin: 0 5px;
+}
+
+.main__content {
+    background-color: rgb(11, 202, 11);
+    width: calc(60% - 10px);
+    min-height: calc(100vh - 220px);
+    float: left;
+    margin-left: 5px;
+}
+
+.header__col, .footer__col, .sidenav, aside, .main__content {
+    box-sizing: border-box;
+    text-align: center;
+    color: white ;
+}
+
+
+
+
+
+
+
+
+
+

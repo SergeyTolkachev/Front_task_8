@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-color: antiquewhite;
+    font-size: 0;
+}
+
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+header, .sidenav, .main__content, aside, footer{
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+header, footer {
+    width: calc(100% - 10px);
+    min-height: 100px;
+    margin: 5px;
+    margin-right: 5px;
+}
+
+header {
+    background-color: blue;
+}
+
+footer {
+    background-color: rgb(61, 165, 235);
+}
+
+.sidenav, .main__content, aside {
+    min-height: calc(100vh - 220px);
+}
+
+.main__content{
+    background-color: rgb(11, 202, 11);
+    width: calc(60% - 10px);
+    margin-left: 5px;
+}
+
+.sidenav, aside {
+    background-color: pink;
+}
+
+.sidenav {
+    width: calc(20% - 5px);
+    margin-left: 5px;
+}
+
+aside {
+    width: calc(20% - 5px);
+    margin: 0 5px;
+}
+
+
